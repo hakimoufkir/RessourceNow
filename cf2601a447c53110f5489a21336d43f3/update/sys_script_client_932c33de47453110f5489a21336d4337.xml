@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>End date cannot be before the start date</description>
+        <field>date_de_fin</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>End date cannot be before the start date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    
+    var startDateForm = g_form.getValue('date_de_debut');
+    var endDateForm = g_form.getValue('date_de_fin');
+    
+    // Convert start date and end date to Date objects
+    var startDate = new Date(startDateForm);
+    var endDate = new Date(endDateForm);
+
+    // Check if end date is before start date
+    if (endDate < startDate) {
+        g_form.addErrorMessage("End date cannot be before the start date");
+//         g_form.setValue('date_de_fin', ''); // Clear the end date field
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 19:28:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>932c33de47453110f5489a21336d4337</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>End date cannot be before the start date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_update_name>sys_script_client_932c33de47453110f5489a21336d4337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 19:37:01</sys_updated_on>
+        <table>x_1096009_ressourc_absence_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

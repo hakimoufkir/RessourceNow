@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0c1c71a847893110f5489a21336d4316" label="Absence Table" max_length="40" name="x_1096009_ressourc_absence_table" type="collection">
+        <element label="Date de debut" mandatory="true" max_length="40" name="date_de_debut" type="glide_date"/>
+        <element label="Date de fin" mandatory="true" max_length="40" name="date_de_fin" type="glide_date"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Demande par" max_length="50" name="demande_par" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="brouillon" label="Etat" max_length="40" name="status_absence" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Brouillon" sequence="0" value="brouillon"/>
+                <element inactive="true" inactive_on_update="true" label="Rejetee" sequence="0" value="Rejetee"/>
+                <element inactive_on_update="false" label="En attente d'approbation" sequence="1" value="en attente dapprobation"/>
+                <element inactive_on_update="false" label="Approuve" sequence="2" value="Approuve"/>
+                <element inactive_on_update="false" label="Rejete" sequence="3" value="rejete"/>
+                <element inactive_on_update="false" label="Annule" sequence="4" value="Annule"/>
+            </choice>
+        </element>
+        <element label="Absence dans l'apres-midi" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Absence le matin" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>

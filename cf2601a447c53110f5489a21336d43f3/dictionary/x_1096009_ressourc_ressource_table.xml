@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="061af5e447893110f5489a21336d43dc" label="Ressource Table" max_length="40" name="x_1096009_ressourc_ressource_table" type="collection">
+        <element label="Chef de projet" max_length="32" name="chef_de_projet" reference="x_1096009_ressourc_chef_de_projet_table" reference_qual="numberSTARTSWITH^EQ" reference_qual_condition="numberSTARTSWITH^EQ" type="reference"/>
+        <element label="Competence Ressource" max_length="4000" name="competence_ressource" reference="x_1096009_ressourc_competence_ressource_table" reference_qual="nom_de_la_competenceSTARTSWITH^EQ" reference_qual_condition="nom_de_la_competenceSTARTSWITH^EQ" type="glide_list"/>
+        <element label="Email Ressource" max_length="50" name="email_ressource" type="string"/>
+        <element label="Nom Ressource" max_length="50" name="nom_ressource" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Id Ressource" max_length="40" name="number" type="string"/>
+        <element label="Prenom Ressource" max_length="50" name="prenom_ressource" type="string"/>
+        <element choice="3" default="Disponible" label="Status Ressource " max_length="40" name="status_ressource" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Affecter" value="Affecter"/>
+                <element inactive_on_update="false" label="Conges" value="Conges"/>
+                <element inactive_on_update="false" label="Disponible" value="Disponible"/>
+                <element inactive_on_update="false" label="Formation" value="Formation"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="chef_de_projet"/>
+        </index>
+    </element>
+</database>

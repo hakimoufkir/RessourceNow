@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bb48f16447893110f5489a21336d4378" label="Projet Table" max_length="40" name="x_1096009_ressourc_projet_table" type="collection">
+        <element label="Date de debut" max_length="40" name="date_de_debut" type="glide_date"/>
+        <element label="Date de fin" max_length="40" name="date_de_fin" type="glide_date"/>
+        <element label="Nom du projet" max_length="50" name="nom_du_projet" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Id projet" max_length="40" name="number" type="string"/>
+    </element>
+</database>

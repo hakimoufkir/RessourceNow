@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Status Absence Table">a7d146a047c93110f5489a21336d435c</application>
+        <filter/>
+        <name>Status Absence Tables</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1096009_ressourc.status_absence_table_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-31 00:03:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bd146a047c93110f5489a21336d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Absence Tables</sys_name>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_update_name>sys_ui_module_6bd146a047c93110f5489a21336d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-31 00:03:41</sys_updated_on>
+        <table>x_1096009_ressourc_status_absence_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</application>
+        <file_path/>
+        <instance_id>a4bff925dbca11d452cec597059619aa</instance_id>
+        <instance_name>dev134863</instance_name>
+        <name>sys_ui_module_6bd146a047c93110f5489a21336d435e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Status Absence Table">a7d146a047c93110f5489a21336d435c</application><filter/><name>Status Absence Tables</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1096009_ressourc.status_absence_table_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-31 00:03:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bd146a047c93110f5489a21336d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status Absence Tables</sys_name><sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package><sys_policy/><sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope><sys_update_name>sys_ui_module_6bd146a047c93110f5489a21336d435e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-31 00:03:41</sys_updated_on><table>x_1096009_ressourc_status_absence_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1432780676</payload_hash>
+        <record_name>Status Absence Tables</record_name>
+        <reverted_from/>
+        <source>4b2601a447c53110f5489a21336d43f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-31 00:03:41</sys_created_on>
+        <sys_id>a7d146a047c93110f5489a21336d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a48e722570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-31 00:03:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>efd146a074c9311061ca288285806b5f</update_guid>
+        <update_guid_history>efd146a074c9311061ca288285806b5f:-1432780676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-31 01:57:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>243cd1cd300b4b8e8360598cca52c624</sys_id>
+        <sys_metadata>6bd146a047c93110f5489a21336d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Absence Tables</sys_name>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_scope_delete display_value="">7f01c9b19c5e47f08a056d2b9cbf7b41</sys_scope_delete>
+        <sys_update_name>sys_ui_module_6bd146a047c93110f5489a21336d435e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_6bd146a047c93110f5489a21336d435e">a7d146a047c93110f5489a21336d4360</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-31 01:57:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

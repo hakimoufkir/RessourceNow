@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nom_de_la_competence" label="Nom de la competence" language="en" table="x_1096009_ressourc_competence_ressource_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nom_de_la_competence</element>
+            <help/>
+            <hint/>
+            <label>Nom de la competence</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_competence_ressource_table</name>
+            <plural>Nom de la competences</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 00:01:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nom de la competence</sys_name>
+            <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+            <sys_update_name>sys_documentation_x_1096009_ressourc_competence_ressource_table_nom_de_la_competence_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 00:01:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6a410a6047c93110f5489a21336d431f" label="Competence Ressource Table" max_length="40" name="x_1096009_ressourc_competence_ressource_table" type="collection">
+        <element label="Nom de la competence" max_length="50" name="nom_de_la_competence" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Id competence" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_6" table="x_1096009_ressourc_projet" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_6</element>
+            <name>x_1096009_ressourc_projet</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-19 11:43:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_6</sys_name>
+            <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+            <sys_update_name>sys_choice_x_1096009_ressourc_projet_u_choice_6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-19 11:43:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>planifié</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-19 11:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e928d67647d13110f5489a21336d43db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-19 11:43:03</sys_updated_on>
+            <value>planifié</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>demandé</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-19 11:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6928d67647d13110f5489a21336d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-19 11:43:03</sys_updated_on>
+            <value>demandé</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>confirmé</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-19 11:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e528d67647d13110f5489a21336d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-19 11:43:03</sys_updated_on>
+            <value>confirmé</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>terminé</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-19 11:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6528d67647d13110f5489a21336d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-19 11:43:03</sys_updated_on>
+            <value>terminé</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>annulé</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-19 11:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e128d67647d13110f5489a21336d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-19 11:43:03</sys_updated_on>
+            <value>annulé</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

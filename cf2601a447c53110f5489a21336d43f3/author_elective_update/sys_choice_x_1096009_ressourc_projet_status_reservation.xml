@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status_reservation" table="x_1096009_ressourc_projet" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status_reservation</element>
+            <name>x_1096009_ressourc_projet</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:57:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status_reservation</sys_name>
+            <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+            <sys_update_name>sys_choice_x_1096009_ressourc_projet_status_reservation</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:57:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_reservation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Annule</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83a9266c474d3110f5489a21336d43da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:57:44</sys_updated_on>
+            <value>Annule</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_reservation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confirme</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:58:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcc9eea8474d3110f5489a21336d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:58:03</sys_updated_on>
+            <value>Confirme</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_reservation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Planifie</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:58:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12d9666c474d3110f5489a21336d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:58:30</sys_updated_on>
+            <value>Planifie</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_reservation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejete</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:58:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bc9666c474d3110f5489a21336d4359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:58:16</sys_updated_on>
+            <value>Rejete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_reservation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reserve</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:57:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31b9666c474d3110f5489a21336d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:57:53</sys_updated_on>
+            <value>Reserve</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_reservation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Termine</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_projet</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 02:57:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34a9266c474d3110f5489a21336d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 02:57:33</sys_updated_on>
+            <value>Termine</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

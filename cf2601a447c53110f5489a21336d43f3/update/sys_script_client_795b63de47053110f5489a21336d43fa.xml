@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date_de_debut</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>start date should be today</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var startDateForm = g_form.getValue('date_de_debut');
+    var currentDate = new Date();
+
+    // Extract year, month, and day components
+    var year = currentDate.getFullYear();
+    var month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Add 1 because months are zero-indexed
+    var day = String(currentDate.getDate()).padStart(2, '0');
+
+    // Create a Date object for the current date
+    var formattedDateCurrentDate = new Date(year, month - 1, day); // Subtract 1 from month to account for zero-indexing
+
+    // Convert startDateForm to a Date object
+    var formattedStartDate = new Date(startDateForm);
+
+    // Compare the dates
+    if (formattedStartDate < formattedDateCurrentDate) {
+        g_form.addErrorMessage("You can't do that, start time is less than the current date");
+    }
+    g_form.addInfoMessage(formattedDateCurrentDate.toISOString().split('T')[0]); // Display current date in "YYYY-MM-DD" format
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 18:32:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>795b63de47053110f5489a21336d43fa</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>start date should be today</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_update_name>sys_script_client_795b63de47053110f5489a21336d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 19:29:13</sys_updated_on>
+        <table>x_1096009_ressourc_absence_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

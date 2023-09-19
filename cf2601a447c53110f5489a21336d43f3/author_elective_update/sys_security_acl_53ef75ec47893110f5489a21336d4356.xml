@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1096009_ressourc_competence_ressource_table</description>
+        <name>x_1096009_ressourc_competence_ressource_table</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 23:55:12</sys_created_on>
+        <sys_id>53ef75ec47893110f5489a21336d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1096009_ressourc_competence_ressource_table</sys_name>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_update_name>sys_security_acl_53ef75ec47893110f5489a21336d4356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 23:55:12</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</application>
+        <file_path/>
+        <instance_id>a4bff925dbca11d452cec597059619aa</instance_id>
+        <instance_name>dev134863</instance_name>
+        <name>sys_security_acl_53ef75ec47893110f5489a21336d4356</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1096009_ressourc_competence_ressource_table</description><name>x_1096009_ressourc_competence_ressource_table</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-30 23:55:12</sys_created_on><sys_id>53ef75ec47893110f5489a21336d4356</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1096009_ressourc_competence_ressource_table</sys_name><sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package><sys_policy/><sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope><sys_update_name>sys_security_acl_53ef75ec47893110f5489a21336d4356</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-30 23:55:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1147398086</payload_hash>
+        <record_name>x_1096009_ressourc_competence_ressource_table</record_name>
+        <reverted_from/>
+        <source>4b2601a447c53110f5489a21336d43f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 23:55:12</sys_created_on>
+        <sys_id>5bef75ec47893110f5489a21336d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a48df5e9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 23:55:12</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>93ef75ecb589311039fa25a2ae795764</update_guid>
+        <update_guid_history>93ef75ecb589311039fa25a2ae795764:1147398086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 23:55:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>52de0c3b42a94880a01aece7b29076b9</sys_id>
+        <sys_metadata>53ef75ec47893110f5489a21336d4356</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1096009_ressourc_competence_ressource_table</sys_name>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_parent display_value="">1bef75ec47893110f5489a21336d436c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_scope_delete display_value="">7f01c9b19c5e47f08a056d2b9cbf7b41</sys_scope_delete>
+        <sys_update_name>sys_security_acl_53ef75ec47893110f5489a21336d4356</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_53ef75ec47893110f5489a21336d4356">5bef75ec47893110f5489a21336d4364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 23:55:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

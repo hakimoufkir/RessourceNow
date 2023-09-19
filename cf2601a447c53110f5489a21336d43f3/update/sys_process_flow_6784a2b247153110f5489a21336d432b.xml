@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1096009_ressourc_projet">u_choice_6=confirmé^EQ<item display_value="confirmé" endquery="false" field="u_choice_6" goto="false" newquery="false" operator="=" or="false" value="confirmé"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>confirmé</label>
+        <name>confirmé</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 12:37:36</sys_created_on>
+        <sys_id>6784a2b247153110f5489a21336d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>confirmé</sys_name>
+        <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+        <sys_update_name>sys_process_flow_6784a2b247153110f5489a21336d432b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 12:37:36</sys_updated_on>
+        <table>x_1096009_ressourc_projet</table>
+    </sys_process_flow>
+</record_update>

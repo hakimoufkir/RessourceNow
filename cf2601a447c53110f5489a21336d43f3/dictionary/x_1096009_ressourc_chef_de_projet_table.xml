@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="503ff1ac47893110f5489a21336d4370" label="Chef de projet Table" max_length="40" name="x_1096009_ressourc_chef_de_projet_table" type="collection">
+        <element label="Email Chef de projet" max_length="50" name="email_chef_de_projet" type="string"/>
+        <element label="Nom Chef de projet" max_length="50" name="nom_chef_de_projet" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Id Chef de projet" max_length="40" name="number" type="string"/>
+        <element label="Prenom Chef de projet" max_length="50" name="prenom_chef_de_projet" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status_ressource" table="x_1096009_ressourc_ressource_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status_ressource</element>
+            <name>x_1096009_ressourc_ressource_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 01:52:04</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status_ressource</sys_name>
+            <sys_package display_value="RessourceNow" source="x_1096009_ressourc">cf2601a447c53110f5489a21336d43f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RessourceNow">cf2601a447c53110f5489a21336d43f3</sys_scope>
+            <sys_update_name>sys_choice_x_1096009_ressourc_ressource_table_status_ressource</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 01:52:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_ressource</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Affecter</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_ressource_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 01:52:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75da926c470d3110f5489a21336d4356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 01:52:55</sys_updated_on>
+            <value>Affecter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_ressource</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conges</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_ressource_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 01:52:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6ca526c470d3110f5489a21336d436e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 01:52:43</sys_updated_on>
+            <value>Conges</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_ressource</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disponible</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_ressource_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 01:52:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97aa1e2c470d3110f5489a21336d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 01:52:04</sys_updated_on>
+            <value>Disponible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status_ressource</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Formation</label>
+            <language>en</language>
+            <name>x_1096009_ressourc_ressource_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-31 01:53:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cea926c470d3110f5489a21336d4300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-31 01:53:04</sys_updated_on>
+            <value>Formation</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
